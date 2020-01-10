@@ -24,6 +24,6 @@ function currentLine(line){
     for (var i = 0; i < line.length; i++){
       array.push(` ${i + 1}. ${line[i]} `)
     }
-    return `The line is currently: ` + array;
+    return `The line is currently:` + array;
   }
 }
